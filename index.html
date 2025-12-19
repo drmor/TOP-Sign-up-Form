@@ -10,36 +10,41 @@
 <body>
     <div class="content">
         <div class="hero">
-            <img src="cityBG.jpg" alt="gackgroung image">
             <div class="name">
-                ne_uchi
+                ne uchi
             </div>
+            <img src="cityBG.jpg" alt="gackgroung image">
         </div>
         <div class="main">
             <div class="info">
-                <p>This isn’t a real online service. But you know you need something like this in your life to help you achieve your biggest dreams.</p>
-                <p>Sign up today and get started.</p>
-                <p>You know you want to.</p>
+                <h2>This isn’t a real online service. But you know you need something like this in your life to help you achieve your biggest dreams.<br>
+                Sign up today and get started.</h2>
+                <h2>You <i>know</i> you want to.</h2>
             </div>
             <div class="formContainer">
-                <form method="get">
-                    <label for="firstName">FIRST NAME</label>
-                    <input type="text" id="firstName" name="firstName" placeholder="John">
-                    <label for="lastName">LAST NAME</label>
-                    <input type="text" id="lastName" name="lastName" placeholder="Doe">
-                    <label for="email">EMAIL</label>
-                    <input type="" id="email" name="email" placeholder="example@gmail.com">
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="" id="phone" name="phone" placeholder="+1 (123) 456 7890">
-                    <label for="password">PASSWORD</label>
-                    <input type="" id="password" name="password" placeholder="Enter your password here">
-                    <label for="confirm">CONFIRM PASSWORD</label>
-                    <input type="" id="confirm" name="confirm" placeholder="Confirm your password here">
+                <h2>Let's do this!</h2>
+                <form method="post" class="formBox">
+                    <div>
+                        <label for="firstName" >FIRST NAME</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="John">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password here">
+                    </div>
+                    <div>
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Doe">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="number" id="phone" name="phone" placeholder="+1 (123) 456 7890">  
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm" name="confirm" placeholder="Confirm your password here">
+                    </div>
                 </form>
             </div>
             <div class="footer">
                 <button type="submit">Create Account</button>
-                <p>Already have an acoount? <a href="#">Log in</a></p>
+                <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
     </div>
